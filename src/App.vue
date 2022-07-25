@@ -1,14 +1,21 @@
 <template>
   <div id="app">
-    <SimpleForm />
+    <!--SimpleForm /-->
+
+    <hr>
+
+    <ComponentsForm />
   </div>
 </template>
 
 <script>
-import SimpleForm from '@/views/SimpleForm.vue'
+//import SimpleForm from '@/views/SimpleForm.vue'
+import ComponentsForm from '@/views/ComponentsForm.vue'
 
 export default {
-  components: { SimpleForm }
+  components: {
+    //SimpleForm,
+    ComponentsForm }
 }
 </script>
 
