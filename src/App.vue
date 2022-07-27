@@ -15,7 +15,8 @@ import ComponentsForm from '@/views/ComponentsForm.vue'
 export default {
   components: {
     //SimpleForm,
-    ComponentsForm }
+    ComponentsForm
+  }
 }
 </script>
 
@@ -145,6 +146,7 @@ input {
 button,
 select {
   text-transform: none;
+  color: #000;
 }
 button,
 [type="button"],
