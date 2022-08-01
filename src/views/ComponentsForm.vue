@@ -96,7 +96,7 @@ export default {
   methods: {
     sendForm (e) {
       axios.post(
-        'https://my-json-server.typicode.com/Code-Pop/Vue-3-Forms/events', 
+        'https://my-json-server.typicode.com/CaribesTIC/vue-forms-app/events', 
         this.event
       )
       .then(function (response) {
